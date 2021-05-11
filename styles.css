@@ -1,0 +1,114 @@
+body,html{
+	height:100%;
+	background-color:lightblue;
+   margin:0;
+   background-image:url("image_hacker02.jpg");
+}
+.bg-image{
+   background-image:url("image_hacker02.jpg");
+   height:100%;
+   color:red;
+   background-size:120% 120%;
+   mix-blend-mode:normal;
+   filter:blur(10px);
+}
+.title-text{
+	font-size:40px;
+   background-size:50px;
+   position:fixed;
+   left:0%;
+   top:0%;
+   width:15vw;
+   height:15vh;
+   text-align:center;
+   
+   color:white;
+   font-family:monospace;
+   background-color:rgba(0,0,0,0.2);
+   transition:background-color 0.25s ease-in-out;
+   border:white double 3px;
+}
+.title-text p{
+   font-size:5vh;
+}
+.title-text:hover{
+	background-color:rgba(0,0,0,0.9);
+   cursor:pointer;
+}
+.inputbox{
+   background-color:rgba(0,0,0,0.1);
+   font-size:2vmax;
+   color:white;
+   border:white solid 2px;
+   border-radius:10px;
+   padding:5px;
+}
+.register-form .inputbox{
+   margin-top:20px;
+   margin-bottom:20px;
+   background-color:rgba(0,0,0,0.1);
+   font-size:2vmax;
+   width:50%;
+   color:white;
+}
+.login-form{
+   background-color:rgba(0,0,0,0.2);
+   position:fixed;
+   left:50%;
+   top:50%;
+   width:80%;
+   height:50%;
+   transform:translate(-50%,-50%);
+   font-size:6vh;
+}
+.select_gender option{
+   background-color:black;
+   border:red solid 5px;
+   color:white;
+}
+.select_gender{
+   background-color:rgba(0,0,0,0.1);
+   color:white;
+   border:white solid 2px;
+   padding:10px;
+   border-radius:30px;
+   font-size:2vw;
+   transition:border-radius 0.1s ease-in-out;
+   -moz-appearance:none; /* Firefox */
+   -webkit-appearance:none; /* Safari and Chrome */
+   appearance:none;
+}
+.register-form{
+   background-color:rgba(0,0,0,0.2);
+   position:fixed;
+   display:normal;
+   left:50%;
+   top:50%;
+   width:80%;
+   height:100%;
+   text-align:left;
+   transform:translate(-50%,-50%);
+   font-size:3vw;
+}
+.register-form c{
+   color:red;
+   margin-left:20px;
+   border:grey dashed 2px;
+   padding: 5px;
+   font-size:2vw;;
+}
+.submit-button{
+   background-color:rgba(0,0,0,0.1);
+   font-size:3vmax;
+   padding:10px;
+   border:white double 2px;
+   color:white;
+   position:20px;
+   transition:background-color ,border 0.2s ease-in-out;
+}
+.submit-button:hover{
+   cursor:pointer;
+   background-color:black;
+   border:rgb(0,255,0) double 2px;
+   color:white;
+}
